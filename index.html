@@ -7,19 +7,23 @@
 	<meta name="description" content="Découvrez le travail de Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée en portraits, mariages, et événements, Nina capture les moments uniques de votre vie avec créativité et passion.">
 	<meta name="keywords" content="photographe Bordeaux, portraits, mariages, événements">
 	<meta name="robots" content="index, follow">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js" async></script>
-	<script src="./assets/scripts.js"async></script>
+	<link rel="preload" as="style"  onload="this.rel='stylesheet'"
+
+	   href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" 
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+	crossorigin="anonymous" defer></script>
+	<script src="./assets/maugallery.min.js" defer></script>
+	<script src="./assets/scripts.min.js" defer></script>
 	<!-- OpenGraph pour Facebook -->
-    <meta property="og:title" content="Nina Carducci Photographe">
-    <meta property="og:description" content="Photographe professionnelle à Bordeaux">
-    <meta property="og:image" content="./assets/images/nina-carducci-photographe.webp">
+    <meta property="og:title" content="Nina Carducci- Photographe à Bordeaux">
+    <meta property="og:description" content="Découvrez le travail de Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée en portraits, mariages, et événements, Nina capture les moments uniques de votre vie avec créativité et passion">
+    <meta property="og:image" content="https://github.com/fatimaassila/Nina-Carducci/blob/master/assets/images/nina-carducci-photographe.webp">
     <meta property="og:url" content="https://github.com/fatimaassila/Nina-Carducci"> 
     <meta property="og:type" content="site web">
     <meta property="og:site_name" content="Nina Carducci, Photographe professionnelle à Bordeaux">
@@ -27,16 +31,16 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Nina Carducci Photographe">
     <meta name="twitter:description" content="Photographe professionnelle à Bordeaux">
-    <meta name="twitter:image" content="./assets/images/nina-carducci-photographe.webp">
+    <meta name="twitter:image" content="https://github.com/fatimaassila/Nina-Carducci/blob/master/assets/images/nina-carducci-photographe.webp">
     <meta name="twitter:site" content="@NinaCarducciPhotographe">
     <meta name="twitter:creator" content="@NinaCarducciPhotographe">
 	<script type="application/ld+json">
 		{
 		  "@context": "http://schema.org",
-		  "@type": "Photographer",
+		  "@type": "ProfessionalService",
 		  "name": "Nina Carducci",
 		  "description": "Découvrez le travail de Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée en portraits, mariages, et événements, Nina capture les moments uniques de votre vie avec créativité et passion.",
-		  "image": "./assets/images/nina-carducci-photographe.webp",
+		  "image": ".assets/images/nina-carducci-photographe.webp",
 		  "address": {
 			"@type": "PostalAddress",
 			"streetAddress": "68 avenue Alsace-Lorraine, ",
@@ -46,7 +50,7 @@
 		  },
 		  "telephone": "+33556677889",
 		  "email": "Nina-Carducci@gmail.fr",
-		  "url": "https://github.com/fatimaassila/Nina-Carducci",
+		  "url": "https://fatimaassila.github.io/Nina-Carducci/",
 		  "openingHours": [
 			"Monday-Friday 10 h - 19 h."
 			
@@ -60,7 +64,7 @@
 </head>
 <body>
 <header class="top-header">
-	<h1 class="name">Nina Carducci</h1>
+	<h1 class="name">Nina Carducci </h1>
 	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -130,21 +134,21 @@
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.webp" alt="concert d'aaron paul" width="424" height="424"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.webp" alt="ali morshedlou"width="424" height="424"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.webp" alt="jason goodman" width="424" height="424"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.webp" alt="hannah busing" width="424" height="424"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji.webp" alt="ade tunji" width="424" height="424"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.webp" alt="jakob owens mariage " width="424" height="424"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.webp" alt="nino van prattenburg" width="424" height="424" />
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.webp" alt="concert d'austin neill" width="424" height="424" />
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos.webp" alt="mateus campos" width="424" height="424"/>
+			<img data-gallery-tag="Concert" class="gallery-item" loading="lazy" src="./assets/images/gallery/concerts/aaron-paul.webp" alt="concert d'aaron paul" width="424" height="424"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/images/gallery/entreprise/ali-morshedlou.webp" alt="ali morshedlou"width="424" height="424"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/images/gallery/entreprise/jason-goodman.webp" alt="jason goodman" width="424" height="424"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" loading="lazy" src="./assets/images/gallery/mariage/hannah-busing.webp" alt="hannah busing" width="424" height="424"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" loading="lazy" src="./assets/images/gallery/portraits/ade-tunji.webp" alt="ade tunji" width="424" height="424"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" loading="lazy" src="./assets/images/gallery/mariage/jakob-owens.webp" alt="jakob owens mariage " width="424" height="424"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" loading="lazy" src="./assets/images/gallery/portraits/nino-van-prattenburg.webp" alt="nino van prattenburg" width="424" height="424" />
+			<img data-gallery-tag="Concert" class="gallery-item" loading="lazy" src="./assets/images/gallery/concerts/austin-neill.webp" alt="concert d'austin neill" width="424" height="424" />
+			<img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/images/gallery/entreprise/mateus-campos.webp" alt="mateus campos" width="424" height="424"/>
 		</div>
 	</div>
 	<div class="quote">
 		<figure>
 			<blockquote>
-				<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+				<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
@@ -189,7 +193,7 @@
 <aside class="quote">
 	<figure>
 		<blockquote>
-			<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+			<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
@@ -210,7 +214,7 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.webp" alt="camera" width="419" height="419"/>
+			<img src="./assets/images/camera.webp" alt="camera" width="3" height="392"/>
 		</div>
 	</div>
 </footer>
